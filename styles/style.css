@@ -50,7 +50,6 @@ body {
     outline: none;
     color: var(--cor-primaria);
     width: 60%;
-
 }
 
 .botoes {
@@ -100,8 +99,7 @@ body {
     background-color: var(--cor-secundaria);
     border-radius: 32px;
     text-align: center;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.205);
-    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.205); 
 }
 
 .imagem_campo_vazio {
