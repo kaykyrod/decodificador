@@ -16,14 +16,10 @@
         padding-bottom: 10%;
     }
 
-    .botoes_geral {
+    .botoes {
         width: 90%;
         margin-bottom: 8%;
         order: 0;
-    }
-
-    .botoes {
-        justify-content: space-between;
     }
 
     .campo_resultado {
@@ -45,7 +41,7 @@
 
 /*  Celular  */
 @media (max-width: 600px) {
-    .botoes {
+    .botoes_geral {
         flex-direction: column;
     }
 

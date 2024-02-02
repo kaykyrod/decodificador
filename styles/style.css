@@ -55,7 +55,7 @@ body {
     
 }
 
-.botoes_geral {
+.botoes {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -64,13 +64,15 @@ body {
     order: 1;
 }
 
-.aviso {
+.botoes_aviso {
     display: flex;
     gap: 8px;
+    align-items: flex-start;
 }
 
-.botoes {
+.botoes_geral {
     display: flex;
+    justify-content: space-around;
     gap: 24px;
 }
 
