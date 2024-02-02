@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img  class="logo_alura" src="assets/alura_logo.png" alt="Logo da Alura">
+        <img class="botao_tema" src="assets/cor_tema.png" alt="Botão para alterar o tema da página" onclick="alterarTema()">
+    </header>
+
+    <main class="campo">
+        <textarea name="campo_texto" id="campo_texto" cols="30" rows="10">Digite seu texto</textarea>
+
+        <div class="botoes_geral">
+            <div class="aviso">
+                <img src="assets/exclamacao.png" alt="Atenção">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <p class="botao_criptografar" onclick="criptografar()">Criptografar</p>
+                <p class="botao_descriptografar">Descriptografar</p>
+            </div>
+        </div>
+
+
+        <div class="campo_resultado">
+            <div class="campo_resultado_geral">
+                <img class="imagem_campo_vazio" src="assets/nenhuma_mensagem.png" alt="Nenhuma mensagem encontrada">
+                <p class="texto_erro1">Nenhuma mensagem encontrada</p>
+                <p class="texto_erro2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="https://github.com/kaykyrod" target="_blank">Kayky</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

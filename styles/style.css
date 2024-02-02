@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cor-primaria: #0A3871;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #495057;
+    --cor-quartenaria: #D8DFE8;
+    --cor-fundo: #EFF1FA;
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 1% 0% 0% 2.5%;  
+}
+
+.logo_alura {
+    width: 80px;
+}
+
+.botao_tema {
+    margin: 0% 5%;
+    width: 30px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#campo_texto {
+    padding: 5% 5% 0% 5%;
+    background-color: var(--cor-fundo);
+    border: none;
+    resize: none;
+    outline: none;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--cor-primaria);
+    width: 60%;
+    
+}
+
+.botoes_geral {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 16px;
+    margin: auto;
+    order: 1;
+}
+
+.aviso {
+    display: flex;
+    gap: 8px;
+}
+
+.botoes {
+    display: flex;
+    gap: 24px;
+}
+
+.botao_criptografar {
+    background-color: var(--cor-primaria);
+    padding: 5% 13%;
+    border-radius: 24px;
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.botao_descriptografar {
+    background-color: var(--cor-quartenaria);
+    padding: 5% 10%;
+    border-radius: 24px;
+    border: 1px solid var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+.campo_resultado {
+    width: 25%;
+    padding: 10% 0%;
+    margin-right: 2.5%;
+    background-color: var(--cor-secundaria);
+    border-radius: 32px;
+    text-align: center;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.205);
+    
+}
+
+.imagem_campo_vazio {
+    width: 80%;
+}
+
+.texto_erro1 {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.texto_erro2 {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor-primaria);
+    padding: 12px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    margin-top: 2%;
+}
+
+a {
+    color: var(--cor-secundaria);
+}
+

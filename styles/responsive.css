@@ -1,0 +1,52 @@
+/*  Tablet  */
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 5% 0% 5% 2.5%;
+    }
+
+    .campo {
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    #campo_texto { 
+        width: 90%;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+
+    .botoes_geral {
+        width: 90%;
+        margin-bottom: 8%;
+        order: 0;
+    }
+
+    .botoes {
+        justify-content: space-between;
+    }
+
+    .campo_resultado {
+        margin: auto;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .imagem_campo_vazio {
+        display: none;
+    }
+
+    .rodape {
+        position: static;
+    }
+}
+
+
+/*  Celular  */
+@media (max-width: 600px) {
+    .botoes {
+        flex-direction: column;
+    }
+
+}
