@@ -44,15 +44,13 @@ body {
 #campo_texto {
     padding: 5% 5% 0% 5%;
     background-color: var(--cor-fundo);
+    font: 2rem var(--fonte-primaria);
     border: none;
     resize: none;
     outline: none;
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 2rem;
     color: var(--cor-primaria);
     width: 60%;
-    
+
 }
 
 .botoes {
@@ -80,9 +78,7 @@ body {
     background-color: var(--cor-primaria);
     padding: 5% 13%;
     border-radius: 24px;
-    font-family: var(--fonte-primaria);
-    font-size: 1rem;
-    font-weight: 400;
+    font: 400 1rem var(--fonte-primaria);
     color: var(--cor-secundaria);
     text-align: center;
 }
@@ -92,9 +88,7 @@ body {
     padding: 5% 10%;
     border-radius: 24px;
     border: 1px solid var(--cor-primaria);
-    font-family: var(--fonte-primaria);
-    font-size: 1rem;
-    font-weight: 400;
+    font: 400 1rem var(--fonte-primaria);
     color: var(--cor-primaria);
     text-align: center;
 }
@@ -115,15 +109,11 @@ body {
 }
 
 .texto_erro1 {
-    font-family: var(--fonte-primaria);
-    font-weight: 700;
-    font-size: 1.5rem;
+    font: 700 1.5rem var(--fonte-primaria);
 }
 
 .texto_erro2 {
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1rem;
+    font: 400 1rem var(--fonte-primaria);
 }
 
 .rodape {
@@ -141,4 +131,3 @@ body {
 a {
     color: var(--cor-secundaria);
 }
-
