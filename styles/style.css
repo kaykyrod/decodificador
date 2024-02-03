@@ -59,6 +59,7 @@ body {
     gap: 16px;
     margin: auto;
     order: 1;
+    margin-bottom: 4%;
 }
 
 .botoes_aviso {
@@ -123,7 +124,6 @@ body {
     text-align: center;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
-    margin-top: 2%;
 }
 
 a {
