@@ -1,3 +1,5 @@
+/*
+
 function limparCampo() {
     document.querySelector('.campo_resultado_geral').style.display = 'none';
 }
@@ -5,6 +7,7 @@ function limparCampo() {
 function criptografar() {
     limparCampo();
 
-   /* includes
-    replace */
+    includes
+    replace 
 }
+*/

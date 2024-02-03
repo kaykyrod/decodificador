@@ -66,6 +66,7 @@ body {
     display: flex;
     gap: 8px;
     align-items: flex-start;
+    color: var(--cor-terciaria);
 }
 
 .botoes_geral {
@@ -113,6 +114,7 @@ body {
 
 .texto_erro2 {
     font: 400 1rem var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
 
 .rodape {
