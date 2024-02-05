@@ -67,6 +67,7 @@ body {
     gap: 8px;
     align-items: flex-start;
     color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
 }
 
 .botoes_geral {
