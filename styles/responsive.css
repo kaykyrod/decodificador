@@ -16,21 +16,25 @@
         padding-bottom: 10%;
     }
 
-    .botoes {
-        width: 90%;
-        margin-bottom: 8%;
-        order: 0;
-    }
-
     .campo_resultado {
         margin: auto;
-        width: 90%;
-        margin-top: 5%;
+        width: 80%;
+        padding: 5%;
         margin-bottom: 10%;
+    }
+
+    .campo_resultado_geral {
+        padding: 5% 0%;
     }
 
     .imagem_campo_vazio {
         display: none;
+    }
+
+    .botoes {
+        width: 90%;
+        margin-bottom: 8%;
+        order: 0;
     }
 
     .rodape {

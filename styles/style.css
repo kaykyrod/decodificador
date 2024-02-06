@@ -49,7 +49,39 @@ body {
     resize: none;
     outline: none;
     color: var(--cor-primaria);
-    width: 60%;
+    width: 50%;
+}
+
+::placeholder {
+    color: var(--fonte-primaria);
+}
+
+.campo_resultado {
+    width: 20%;
+    padding: 2.5%;
+    margin-left: 8%;
+    background-color: var(--cor-secundaria);
+    border-radius: 32px;
+    text-align: center;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.205);
+    font: 1.5rem var(--fonte-primaria);
+}
+
+.campo_resultado_geral {
+    padding: 10% 0%;
+}
+
+.imagem_campo_vazio {
+    width: 80%;
+}
+
+.texto_erro1 {
+    font: 700 1.5rem var(--fonte-primaria);
+}
+
+.texto_erro2 {
+    font: 400 1rem var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
 
 .botoes {
@@ -93,29 +125,6 @@ body {
     font: 400 1rem var(--fonte-primaria);
     color: var(--cor-primaria);
     text-align: center;
-}
-
-.campo_resultado {
-    width: 25%;
-    padding: 10% 0%;
-    margin-right: 2.5%;
-    background-color: var(--cor-secundaria);
-    border-radius: 32px;
-    text-align: center;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.205); 
-}
-
-.imagem_campo_vazio {
-    width: 80%;
-}
-
-.texto_erro1 {
-    font: 700 1.5rem var(--fonte-primaria);
-}
-
-.texto_erro2 {
-    font: 400 1rem var(--fonte-primaria);
-    color: var(--cor-terciaria);
 }
 
 .rodape {
