@@ -9,10 +9,11 @@ function criptografar() {
                                   .replaceAll('u', 'ufat');
 
     document.querySelector('.campo_resultado').style.textAlign = 'start';
-    document.querySelector('.campo_resultado').innerHTML = resultadoCriptografado;
+    document.querySelector('.campo_resultado').textContent = resultadoCriptografado;
 
-    console.log(resultadoCriptografado);
+    return resultadoCriptografado;
 }
+
 
 function descriptografar() {
     let resultadoDescriptografado = resultadoCriptografado.replaceAll('enter', 'e')
@@ -23,7 +24,24 @@ function descriptografar() {
 
     document.querySelector('.campo_resultado').innerHTML = resultadoDescriptografado;
 
-    console.log(resultadoDescriptografado);
+    return resultadoDescriptografado;
 }
 
 
+
+
+function copiar() {
+    let teste = document.querySelector('.campo_resultado').value;
+    console.log(teste);
+
+
+    /*
+    let teste = criptografar();
+    let teste2 = descriptografar();
+    console.log(teste, teste2);
+    //let textoCopiado = document.querySelector('.campo_resultado').value;
+
+    //navigator.clipboard.writeText(textoCopiado);
+
+    //alert('texto copiado:' + textoCopiado);*/
+}

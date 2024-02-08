@@ -23,6 +23,8 @@ function alterarTema() {
         document.querySelector('.botao_descriptografar').style.color = '#FFFFFF';
         document.querySelector('.botao_descriptografar').style.backgroundColor = '#495057';
         document.querySelector('.botao_descriptografar').style.borderColor = '#FFFFFF';
+        document.querySelector('.botao_copiar').style.color = '#FFFFFF';
+        document.querySelector('.botao_copiar').style.backgroundColor = '#052051';
         document.querySelector('.rodape').style.backgroundColor = '#052051';
     } else {
         // Modo Claro
@@ -45,6 +47,8 @@ function alterarTema() {
         document.querySelector('.botao_descriptografar').style.color = '#0A3871';
         document.querySelector('.botao_descriptografar').style.backgroundColor = '#D8DFE8';
         document.querySelector('.botao_descriptografar').style.borderColor = '#0A3871';
+        document.querySelector('.botao_copiar').style.color = '#FFFFFF';
+        document.querySelector('.botao_copiar').style.backgroundColor = '#0A3871';
         document.querySelector('.rodape').style.backgroundColor = '#052051';
     }
 

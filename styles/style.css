@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
-    --cor-primaria: #0A3871;
-    --cor-secundaria: #FFFFFF;
-    --cor-terciaria: #495057;
-    --cor-quartenaria: #D8DFE8;
-    --cor-fundo: #EFF1FA;
+    --cor-primaria: #052051;
+    --cor-secundaria: #868E96;
+    --cor-terciaria: #1A1D21;
+    --cor-quartenaria: #495057;
+    --cor-fundo: #343A40;
 
     --fonte-primaria: 'Inter', sans-serif;
 }
@@ -29,11 +29,6 @@ body {
     width: 80px;
 }
 
-.botao_tema {
-    margin: 0% 5%;
-    width: 30px;
-}
-
 .campo {
     display: flex;
     flex-direction: row;
@@ -42,18 +37,18 @@ body {
 }
 
 #campo_texto {
-    padding: 5% 5% 0% 5%;
+    padding: 3% 2% 0% 5%;
     background-color: var(--cor-fundo);
+    color: #FFFFFF;
     font: 2rem var(--fonte-primaria);
     border: none;
     resize: none;
     outline: none;
-    color: var(--cor-primaria);
     width: 50%;
 }
 
 ::placeholder {
-    color: var(--fonte-primaria);
+    color: #FFFFFF;
 }
 
 .campo_resultado {
@@ -77,6 +72,7 @@ body {
 
 .texto_erro1 {
     font: 700 1.5rem var(--fonte-primaria);
+    color: var(--cor-terciaria);
 }
 
 .texto_erro2 {
@@ -87,10 +83,10 @@ body {
 .botoes {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
     gap: 16px;
-    margin: auto;
     order: 1;
+    margin-left: 5%;
     margin-bottom: 4%;
 }
 
@@ -98,7 +94,7 @@ body {
     display: flex;
     gap: 8px;
     align-items: flex-start;
-    color: var(--cor-terciaria);
+    color: #FFFFFF;
     font-family: var(--fonte-primaria);
 }
 
@@ -109,22 +105,34 @@ body {
 }
 
 .botao_criptografar {
+    display: flex;
+    justify-content: center;
     background-color: var(--cor-primaria);
-    padding: 5% 13%;
+    color: #FFFFFF;
+    padding: 3% 10%;
     border-radius: 24px;
     font: 400 1rem var(--fonte-primaria);
-    color: var(--cor-secundaria);
-    text-align: center;
 }
 
 .botao_descriptografar {
+    display: flex;
+    justify-content: center;
     background-color: var(--cor-quartenaria);
-    padding: 5% 10%;
+    color: #FFFFFF;
+    padding: 3% 10%;
     border-radius: 24px;
-    border: 1px solid var(--cor-primaria);
+    border: 1px solid #FFFFFF;
     font: 400 1rem var(--fonte-primaria);
-    color: var(--cor-primaria);
-    text-align: center;
+}
+
+.botao_copiar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    color: #FFFFFF;
+    padding: 3% 10%;
+    border-radius: 24px;
+    font: 400 1rem var(--fonte-primaria);
 }
 
 .rodape {
@@ -135,9 +143,9 @@ body {
     padding: 12px;
     text-align: center;
     font-family: var(--fonte-primaria);
-    color: var(--cor-secundaria);
+    color: #FFFFFF;
 }
 
 a {
-    color: var(--cor-secundaria);
+    color: #FFFFFF;
 }

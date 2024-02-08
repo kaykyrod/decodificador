@@ -37,6 +37,17 @@
         order: 0;
     }
 
+    .botao_criptografar {
+        padding: 5% 10%;
+    }
+
+    .botao_descriptografar {
+        padding: 5% 10%;
+    }
+
+    .botao_copiar { 
+        padding: 5% 10%;
+    } 
     .rodape {
         position: static;
     }
