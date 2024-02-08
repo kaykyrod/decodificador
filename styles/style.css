@@ -60,6 +60,7 @@ body {
     text-align: center;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.205);
     font: 1.5rem var(--fonte-primaria);
+    word-wrap: break-word;
 }
 
 .campo_resultado_geral {
@@ -114,6 +115,10 @@ body {
     font: 400 1rem var(--fonte-primaria);
 }
 
+.botao_criptografar:active {
+    background-color: #031330;
+}
+
 .botao_descriptografar {
     display: flex;
     justify-content: center;
@@ -125,6 +130,10 @@ body {
     font: 400 1rem var(--fonte-primaria);
 }
 
+.botao_descriptografar:active {
+    background-color: #33383d;
+}
+
 .botao_copiar {
     display: flex;
     justify-content: center;
@@ -133,6 +142,10 @@ body {
     padding: 3% 10%;
     border-radius: 24px;
     font: 400 1rem var(--fonte-primaria);
+}
+
+.botao_copiar:active {
+    background-color: #031330;
 }
 
 .rodape {

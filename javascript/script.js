@@ -1,5 +1,7 @@
 let resultadoCriptografado = '';
 
+
+// Função de Criptografia
 function criptografar() {
     let texto = document.querySelector('#campo_texto').value;
     resultadoCriptografado = texto.replaceAll('e', 'enter')
@@ -8,40 +10,27 @@ function criptografar() {
                                   .replaceAll('o', 'ober')
                                   .replaceAll('u', 'ufat');
 
-    document.querySelector('.campo_resultado').style.textAlign = 'start';
-    document.querySelector('.campo_resultado').textContent = resultadoCriptografado;
-
-    return resultadoCriptografado;
+        document.querySelector('.campo_resultado').style.textAlign = 'start';
+        document.querySelector('.campo_resultado').textContent = resultadoCriptografado; 
 }
 
-
+// Função de Descriptografia
 function descriptografar() {
-    let resultadoDescriptografado = resultadoCriptografado.replaceAll('enter', 'e')
-                                                          .replaceAll('imes', 'i')
-                                                          .replaceAll('ai', 'a')
-                                                          .replaceAll('ober', 'o')
-                                                          .replaceAll('ufat', 'u');
+    let texto = document.querySelector('#campo_texto').value;
+    let resultadoDescriptografado = texto.replaceAll('enter', 'e')
+                                         .replaceAll('imes', 'i')
+                                         .replaceAll('ai', 'a')
+                                         .replaceAll('ober', 'o')
+                                         .replaceAll('ufat', 'u');
 
+    document.querySelector('.campo_resultado').style.textAlign = 'start';
     document.querySelector('.campo_resultado').innerHTML = resultadoDescriptografado;
 
-    return resultadoDescriptografado;
 }
 
-
-
-
+// Função de Copiar o resultado
 function copiar() {
-    let teste = document.querySelector('.campo_resultado').value;
-    console.log(teste);
+    let textoCopiado = document.querySelector('.campo_resultado').textContent;
+    navigator.clipboard.writeText(textoCopiado);
 
-
-    /*
-    let teste = criptografar();
-    let teste2 = descriptografar();
-    console.log(teste, teste2);
-    //let textoCopiado = document.querySelector('.campo_resultado').value;
-
-    //navigator.clipboard.writeText(textoCopiado);
-
-    //alert('texto copiado:' + textoCopiado);*/
 }
