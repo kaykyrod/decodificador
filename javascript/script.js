@@ -1,6 +1,5 @@
 let resultadoCriptografado = '';
 
-
 // Função de Criptografia
 function criptografar() {
     let texto = document.querySelector('#campo_texto').value;
@@ -11,7 +10,9 @@ function criptografar() {
                                   .replaceAll('u', 'ufat');
 
         document.querySelector('.campo_resultado').style.textAlign = 'start';
-        document.querySelector('.campo_resultado').textContent = resultadoCriptografado; 
+        document.querySelector('.campo_resultado').textContent = resultadoCriptografado;
+        // Ativa o botão de copiar
+        document.querySelector('.botao_copiar').disabled = false; 
 }
 
 // Função de Descriptografia
@@ -25,7 +26,8 @@ function descriptografar() {
 
     document.querySelector('.campo_resultado').style.textAlign = 'start';
     document.querySelector('.campo_resultado').innerHTML = resultadoDescriptografado;
-
+    // Ativa o botão de copiar
+    document.querySelector('.botao_copiar').disabled = false;
 }
 
 // Função de Copiar o resultado

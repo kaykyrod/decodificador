@@ -4,7 +4,6 @@
     --cor-primaria: #052051;
     --cor-secundaria: #868E96;
     --cor-terciaria: #1A1D21;
-    --cor-quartenaria: #495057;
     --cor-fundo: #343A40;
 
     --fonte-primaria: 'Inter', sans-serif;
@@ -33,22 +32,22 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 #campo_texto {
-    padding: 3% 2% 0% 5%;
+    width: 50%;
+    padding: 3% 2% 3% 5%;
     background-color: var(--cor-fundo);
     color: #FFFFFF;
     font: 2rem var(--fonte-primaria);
     border: none;
     resize: none;
     outline: none;
-    width: 50%;
 }
 
 ::placeholder {
-    color: #FFFFFF;
+    color: #ffffff;
+    opacity: 0.5;
 }
 
 .campo_resultado {
@@ -112,6 +111,7 @@ body {
     color: #FFFFFF;
     padding: 3% 10%;
     border-radius: 24px;
+    border: 1px solid #FFFFFF;
     font: 400 1rem var(--fonte-primaria);
 }
 
@@ -122,7 +122,7 @@ body {
 .botao_descriptografar {
     display: flex;
     justify-content: center;
-    background-color: var(--cor-quartenaria);
+    background-color: var(--cor-primaria);
     color: #FFFFFF;
     padding: 3% 10%;
     border-radius: 24px;
@@ -131,7 +131,12 @@ body {
 }
 
 .botao_descriptografar:active {
-    background-color: #33383d;
+    background-color: #031330;
+}
+
+.botao_copiar:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .botao_copiar {
@@ -141,6 +146,7 @@ body {
     color: #FFFFFF;
     padding: 3% 10%;
     border-radius: 24px;
+    border: 1px solid #FFFFFF;
     font: 400 1rem var(--fonte-primaria);
 }
 
